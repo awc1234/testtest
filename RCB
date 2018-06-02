@@ -53,8 +53,8 @@ def extract_feature(file_name):
     print(npmfcc.shape)
     return mfccs
 
-n_dim = 39 # 소리파일에서 추출한 데이터의 차원 수(우리는 80차 벡터를 씀)
-n_classes = 10 # 결과값으로 분류할 가짓 수(우리는 총 10가지 음향을 분류함)
+n_dim = 10 # 소리파일에서 추출한 데이터의 차원 수(우리는 80차 벡터를 씀)
+n_classes = 5 # 결과값으로 분류할 가짓 수(우리는 총 10가지 음향을 분류함)
 n_hid1 = 100 # hidden layer 1의 차원 수
 n_hid2 = 100 # hidden layer 2의 차원 수
 n_hid3 = 100 # hidden layer 3의 차원 수
