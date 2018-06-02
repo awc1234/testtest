@@ -175,7 +175,7 @@ while data != '':
         clientSocket.close
         break
 
-    if i % (int(RATE/1024*4*WIDTH)) == 0 :
+    if i % (int(RATE/(1024)*WIDTH)) == 0 :
         print( str(i/(int(RATE/1024))) +"sec")
 
         try:
